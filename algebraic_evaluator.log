@@ -1,0 +1,112 @@
+2024-12-30 21:47:33,658 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:47:38,284 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:47:39,778 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:47:40,260 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:47:43,677 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:52:58,925 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:57:42,351 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:57:46,585 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 21:57:52,275 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 22:02:32,842 - ERROR - Unexpected Error: Cannot hash argument 'node' (of type `src.parser.Node`) in 'create_tree_visualization_cached'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_resource
+def create_tree_visualization_cached(_node, ...):
+    ...
+```
+            
+2024-12-30 22:18:58,284 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
+2024-12-30 22:19:01,611 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
