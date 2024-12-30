@@ -110,3 +110,100 @@ def create_tree_visualization_cached(_node, ...):
             
 2024-12-30 22:18:58,284 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
 2024-12-30 22:19:01,611 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
+2024-12-30 23:31:36,164 - ERROR - Evaluation Error: Variable 'sin' is not defined.
+2024-12-30 23:31:54,098 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
+2024-12-30 23:35:19,406 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:35:29,455 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:36:36,089 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:40:14,054 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:41:03,878 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:43:09,201 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:46:13,582 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
+2024-12-30 23:46:15,148 - ERROR - Interactive Tree Generation Error: 'NoneType' object has no attribute 'render'
+2024-12-30 23:46:44,130 - ERROR - Input Error: Failed to tokenize input. Check your expression syntax.
+2024-12-30 23:49:09,815 - ERROR - Input Error: Invalid expression. Please check your syntax.
+2024-12-30 23:49:12,977 - ERROR - Input Error: Invalid expression. Please check your syntax.
+2024-12-30 23:49:16,599 - ERROR - Input Error: Invalid expression. Please check your syntax.
+2024-12-30 23:53:21,952 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
+2024-12-30 23:53:40,878 - ERROR - Input Error: Invalid expression. Please check your syntax.
+2024-12-30 23:53:43,213 - ERROR - Unexpected Evaluation Error: Cannot hash argument 'simplified_tree' (of type `src.parser.Node`) in 'cached_evaluate'.
+
+To address this, you can tell Streamlit not to hash this argument by adding a
+leading underscore to the argument's name in the function signature:
+
+```
+@st.cache_data
+def cached_evaluate(_simplified_tree, ...):
+    ...
+```
+            
