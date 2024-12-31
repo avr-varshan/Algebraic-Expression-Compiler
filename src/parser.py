@@ -1,4 +1,3 @@
-# src/parser.py
 import re
 import unicodedata
 
@@ -52,7 +51,16 @@ def tokenize(expression: str):
 
     if not tokens_raw:
         raise ValueError("Failed to tokenize input. Check your expression syntax.")
-    return tokens_raw
+
+    # Lowercase any alpha tokens for case-insensitive function/variable handling
+    normalized_tokens = []
+    for t in tokens_raw:
+        if t.isalpha():
+            normalized_tokens.append(t.lower())
+        else:
+            normalized_tokens.append(t)
+
+    return normalized_tokens
 
 
 def parse_expression(tokens):
@@ -98,7 +106,7 @@ def parse_expression(tokens):
             return Node(float(token) if '.' in token else int(token))
 
         elif token.isalpha():
-            # Could be a function or just a variable
+            # Could be a function or a variable
             func_name = token
             index += 1
             if index < len(tokens) and tokens[index] == "(":

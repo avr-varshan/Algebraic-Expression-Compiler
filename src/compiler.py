@@ -1,4 +1,3 @@
-# src/compiler.py
 from src.parser import Node
 
 class Compiler:
@@ -36,7 +35,6 @@ class Compiler:
 
             # x + x => 2x
             if node.value == "+" and left and right and left.value == right.value:
-                # Only do it if left.value is numeric or a variable name
                 if isinstance(left.value, (int, float)):
                     # e.g., 2 + 2 => 4
                     return Node(left.value * 2)
@@ -62,16 +60,13 @@ class Compiler:
         if node.value in ("+", "-") and node.left is None:
             right_simpl = right
             if isinstance(right_simpl.value, (int, float)):
-                # Evaluate it directly
                 if node.value == "+":
                     return right_simpl
                 else:
-                    # negative
                     return Node(-right_simpl.value)
-            # otherwise keep as is
             return Node(node.value, right=right_simpl)
 
-        # If it's a function call (sin, cos, etc.), just keep it with simplified child
+        # If it's a function call, just keep it with simplified child
         return Node(node.value, left=left, right=right)
 
     @staticmethod
