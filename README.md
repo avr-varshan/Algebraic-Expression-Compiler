@@ -26,7 +26,6 @@ A high-performance application for evaluating and simplifying algebraic expressi
     
 *   **Framework**: Streamlit
     
-*   **Containerization**: Docker
     
 
 🖥️ Usage
@@ -36,24 +35,19 @@ A high-performance application for evaluating and simplifying algebraic expressi
 
 Clone the repository and install the dependencies:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone   cd   pip install -r requirements.txt   `
+`   git clone   cd   pip install -r requirements.txt   `
 
 Run the app locally:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   streamlit run main.py   `
+`   streamlit run main.py   `
 
 Visit http://localhost:8501 in your browser.
 
-### 2\. **Run with Docker**
-
-Build and run the Docker container:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   docker build -t algebraic-compiler .  docker run -p 8501:8501 algebraic-compiler   `
 
 🌐 Live Demo
 ------------
 
-Check out the live app hosted on Fly.io: [Your Live URL](https://<your-app-name>.fly.dev/)
+Check out the live app : https://algebraic-expression-compiler-36xvtrhkpq5gc3yjseeacp.streamlit.app/
 
 📜 Process Workflow
 -------------------
@@ -87,7 +81,3 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 This project is licensed under the MIT License.
 
-✉️ Contact
-----------
-
-For any inquiries or feedback, reach out at \[[your-email@example.com](mailto:your-email@example.com)\].
